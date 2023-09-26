@@ -4,8 +4,7 @@ My goal with this project is to make a easy to use parser, for example here is h
 SLN sln = new SLN("My Project Name");
 File.WriteAllText($"{projectPath}/My Project Name.sln", sln.Serialize());
 ```
-I should note this project is still a work-in-progress, if you want something more complete i recommend [MvsSln]
-(https://github.com/3F/MvsSln)
+I should note this project is still a work-in-progress, if you want something more complete i recommend [MvsSln](https://github.com/3F/MvsSln)
 # Building
 You can directly clone the project into Visual Studio and it should work out of the box
 # Supported features
